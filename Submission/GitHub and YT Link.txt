@@ -1,0 +1,54 @@
+GitHub:   https://github.com/CODEX6975/jsGameEngineFinal.git
+
+
+Code Description Video:   https://youtu.be/m9iVR_2GRhg
+
+Task Description Video:   https://youtu.be/FRuZLvQNL7U
+
+
+
+
+
+
+Brief Checklist:
+
+keyboard and mouse input
+pause/restart/exit
+diegetic sounds
+collision detection
+UI with score and timer(partially)
+GitHub
+code and game walkthrough
+
+
+
+
+
+
+
+
+UNLISTED CHANGES IN THE VIDEO
+
+
+the game now has 2 states, paused and playing, to implement this:
+
+
+Key Changes in game classes
+Pause Handling:
+
+Added pauseGame() and resumeGame() methods to manage pausing and resuming the game.
+Updated togglePause() to switch between pause and play states.
+Reset Functionality:
+
+Modified reset() method to reload the page using window.location.reload() to restart the game.
+Quit Functionality:
+
+Added quitGame() method to close the browser tab using window.close().
+Game State Management:
+
+Updated gameLoop() to handle paused state and display the pause menu.
+
+
+changes in other classes:
+Pause Handling in update Method
+

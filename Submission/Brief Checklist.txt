@@ -1,0 +1,9 @@
+Project Achieves:
+
+keyboard and mouse input
+pause/restart/exit
+diegetic sounds
+collision detection
+UI with score and timer(partially)
+GitHub
+code and game walkthrough

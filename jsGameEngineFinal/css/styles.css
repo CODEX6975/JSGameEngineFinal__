@@ -1,0 +1,18 @@
+/* Set margin, flex properties, height, and background color for the body */
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('/resources/images/background/background.jpg'); /* Changes background to an image */
+    background-size: cover; /* Covers the entire background */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+}
+
+
+
+/* Add border to the canvas element */
+canvas {
+    border: 1px solid #000000; /* 1 pixel solid white border */
+}
